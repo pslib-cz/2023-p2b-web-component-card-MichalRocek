@@ -1,0 +1,52 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url(../img/bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.karta {
+    margin: 5em 1em 1em 1em;
+    width: 18em;
+    box-shadow: 10px 2px 10px grey;
+    background-color: white;
+    padding: 1em;
+    display: inline-block;
+}
+.karta__obrazek {
+    width: 60%;
+    aspect-ratio: 1/1;
+    height: auto;
+    object-fit: cover;
+    object-position: 50% 0%;
+    border-radius: 100%;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 0 0 4px grey;
+    margin: auto;
+    display: block;
+    margin: auto;
+    margin-top: calc(-30% - 1em);    
+}
+.karta__info {
+    padding: 0.5em 0;
+}
+.karta__info-radek {
+    padding: 0.5em 0;
+}
+.karta__jmeno {
+    font-weight: 800;
+    font-size: 1.1em;
+    border-bottom: 1px solid;
+    padding-bottom: 0.5em;
+    padding-top: 1em;
+}
+.ikona {
+    font-family: icomoon;
+    font-size: 1.5em;
+}
+.cervena {
+    color: rgb(194, 67, 67);
+}
