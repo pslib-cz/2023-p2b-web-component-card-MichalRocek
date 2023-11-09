@@ -8,58 +8,66 @@
     <title>Karty</title>
 </head>
 <body>
-    <div class="zmestnanci">
-        <div class="karta">
-            <img src="img/Br.jpg" alt="obličej učitele" class="karta__obrazek">
-            <div class="karta__jmeno">
-                Vojtěch Brodský (Br)
-            </div>
-            <div class="karta__info">
-                <div class="karta__info-radek">
+    <!-- obsah dávat do main -->
+    <main class="zamestnanci">
+        <!-- na samostatně stojící prvek použít figure -->
+        <figure class="karta">
+            <header class="karta__zahlavi"> <!--obrázek vždy do nějakého rodičovského prvku-->
+                <img src="img/Br.jpg" alt="obličej učitele" class="obrazek-responzivni">
+            </header>
+            <div class="karta__telo">
+                <figcaption class="karta__jmeno">
+                    Vojtěch Brodský (Br)
+                </figcaption>
+                <div class="karta__telo-radek">
                     <span class="ikona">pozice</span> pedagog
                 </div>
-                <div class="karta__info-radek">
+                <div class="karta__telo-radek">
                     <span class="ikona">mail</span> vojtech.brodsky@pslib.cz
                 </div>
-                <div class="karta__info-radek">
+                <div class="karta__telo-radek">
                     <span class="ikona cervena">telefon</span> 420 485 100 113/44
                 </div>
             </div>
-        </div>
-        <div class="karta">
-            <img src="img/Jc.jpg" alt="obličej učitele" class="karta__obrazek">
-            <div class="karta__jmeno">
-                Leona Jenčová (Jč)
-            </div>
-            <div class="karta__info">
-                <div class="karta__info-radek">
+        </figure>
+        <figure class="karta">
+            <header class="karta__zahlavi"> <!--obrázek vždy do nějakého rodičovského prvku-->
+                <img src="img/Jc.jpg" alt="obličej učitele" class="obrazek-responzivni">
+            </header>
+            <div class="karta__telo">
+                <figcaption class="karta__jmeno">
+                    Leona Jenčová (Jč)
+                </figcaption>
+                <div class="karta__telo-radek">
                     <span class="ikona">pozice</span> pedagog
                 </div>
-                <div class="karta__info-radek">
-                    <span class="ikona">mail</span> leona.jencovay@pslib.cz
+                <div class="karta__telo-radek">
+                    <span class="ikona">mail</span> leona.jencova@pslib.cz
                 </div>
-                <div class="karta__info-radek">
+                <div class="karta__telo-radek">
                     <span class="ikona cervena">telefon</span> 420 485 100 113
                 </div>
             </div>
-        </div>
-        <div class="karta">
-            <img src="img/Ba.jpg" alt="obličej učitele" class="karta__obrazek">
-            <div class="karta__jmeno">
-                Zuzana Bernátová (Ba)
-            </div>
-            <div class="karta__info">
-                <div class="karta__info-radek">
+        </figure>
+        <figure class="karta">
+            <header class="karta__zahlavi"> <!--obrázek vždy do nějakého rodičovského prvku-->
+                <img src="img/Ba.jpg" alt="obličej učitele" class="obrazek-responzivni">
+            </header>
+            <div class="karta__telo">
+                <figcaption class="karta__jmeno">
+                    PhDr. Zuzana Bernátová (Ba)
+                </figcaption>
+                <div class="karta__telo-radek">
                     <span class="ikona">pozice</span> pedagog
                 </div>
-                <div class="karta__info-radek">
+                <div class="karta__telo-radek">
                     <span class="ikona">mail</span> zuzana.bernatova@pslib.cz
                 </div>
-                <div class="karta__info-radek">
+                <div class="karta__telo-radek">
                     <span class="ikona cervena">telefon</span> 420 485 100 113
                 </div>
             </div>
-        </div>
-    </div>
+        </figure>
+    </main>
 </body>
 </html>

@@ -6,46 +6,49 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.zamestnanci {
+    display: flex;
+    overflow-x: scroll;
+    flex-wrap: wrap;
+    justify-content:left;
+    width: 100%;
+}
 .karta {
-    margin: 5em 1em 1em 1em;
-    width: 18em;
+    margin: 6em 1em 1em 1em;
+    min-width: 280px;
+    max-width: 320px;
     box-shadow: 10px 2px 10px grey;
     background-color: white;
     padding: 1em;
-    display: inline-block;
 }
-.karta__obrazek {
+.karta__zahlavi {
     width: 60%;
     aspect-ratio: 1/1;
-    height: auto;
-    object-fit: cover;
-    object-position: 50% 0%;
+    overflow: hidden;
+    border: 2px solid white;
     border-radius: 100%;
-    border-color: white;
-    border-style: solid;
-    border-width: 2px;
+    margin: calc(-30% - 1em) auto 0 auto;
     box-shadow: 0 0 4px grey;
-    margin: auto;
-    display: block;
-    margin: auto;
-    margin-top: calc(-30% - 1em);    
 }
-.karta__info {
+.obrazek-responzivni {
+    width: 100%;
+}
+.karta__telo {
     padding: 0.5em 0;
 }
-.karta__info-radek {
+.karta__telo-radek {
     padding: 0.5em 0;
 }
 .karta__jmeno {
     font-weight: 800;
     font-size: 1.1em;
     border-bottom: 1px solid;
-    padding-bottom: 0.5em;
-    padding-top: 1em;
+    padding: 0.5em 0;
+    margin-bottom: 0.5em;
 }
 .ikona {
     font-family: icomoon;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 .cervena {
     color: rgb(194, 67, 67);
